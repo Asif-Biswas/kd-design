@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="signin.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form-container">
+            <div class="logo-container">
+                <img width="28px" src="logo.png" alt="logo" />
+            </div>
+            <div>
+                <form class="login-form">
+                    <h1>Welcome To KD</h1>
+                    <p class="cya-text">Create your account</p>
+                    <div class="form-group">
+                        <label for="email">First Name <span>*</span></label>
+                        <div class="d-flex">
+                            <div class="icon-container"><i class="fa-solid fa-user" style="color: #ff9500; font-family: FontAwesome;"></i></div>
+                            <input type="text" name="firstname" id="firstname" 
+                                placeholder="Enter your first name" 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Last Name <span>*</span></label>
+                        <div class="d-flex">
+                            <div class="icon-container"><i class="fa-solid fa-user" style="color: #ff9500; font-family: FontAwesome;"></i></div>
+                            <input type="text" name="lastname" id="lastname" 
+                                placeholder="Enter your last name" 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <div class="d-flex">
+                            <div class="icon-container"><i class="fa-solid fa-envelope" style="color: #ff9500; font-family: FontAwesome;"></i></div>
+                            <input type="email" name="email" id="email" 
+                                placeholder="Enter your email" 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <span>*</span></label>
+                        <div class="d-flex">
+                            <div class="icon-container"><i class="fa-solid fa-lock" style="color: #ff9500; font-family: FontAwesome;"></i></div>
+                            <input type="password" name="password" id="password" 
+                                placeholder="Enter your password" 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Confirm Password <span>*</span></label>
+                        <div class="d-flex">
+                            <div class="icon-container"><i class="fa-solid fa-lock" style="color: #ff9500; font-family: FontAwesome;"></i></div>
+                            <input type="password" name="confirmpassword" id="confirmpassword" 
+                                placeholder="Confirm your password" 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group-checkbox opacity-32">
+                        <!-- Remember me -->
+                        <input type="checkbox" name="rememberme" id="rememberme" />
+                        <label for="rememberme">Remember me</label>
+                    </div>
+                    <div class="form-group-button">
+                        <button type="submit" class="submit-button">Sign Up</button>
+                    </div>
+                    <p class="p-text">
+                        <span>Already have an account? </span><a href="/login">Login</a>
+                    </p>
+                    <div class="or-divider">
+                        <div class="line"></div>
+                        <div class="or">or</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="social-login">
+                        <button class="social-login-button">
+                            <img width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="google" />
+                            <span style="padding-left: 8px;">Log in with Google</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        <div class="dashboard-design overflow-hidden" style="position: relative;">
+            <div class="dashboard-design-content">
+                <h2>Designed for individuals</h2>
+                <p class="opacity-32 max-w-400">See the analytics and grow your date for Task remotely, from anywhere!</p>
+                
+                <div>
+                    <div class="overflow-hidden img-shadow">
+                        <img class="desktop-version-img" src="desktop-version.png" alt="desktop-version" />
+                    </div>
+                </div>
+            </div>
+            <div class="rect-container">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
